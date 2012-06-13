@@ -24,7 +24,7 @@ public class ServerConsole implements ChatIF {
 	 * to executeServerCommand()
 	 */
 	public void accept() {
-		try {
+		/*try {
 			BufferedReader fromConsole = new BufferedReader(new InputStreamReader(System.in));
 			String message;
 
@@ -39,7 +39,7 @@ public class ServerConsole implements ChatIF {
 			}
 		} catch (Exception ex) {
 			System.out.println("Unexpected error while reading from console!");
-		}
+		} */
 	}
 	
 	/**
