@@ -6,4 +6,3 @@ sudo apt-get install -yq default-jdk
 
 # compile the java
 javac EchoServer.java
-javac ClientConsole.java
