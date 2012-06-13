@@ -1,8 +1,2 @@
 #!/bin/sh -x
 
-# install java and javac
-sudo apt-get install -yq default-jre
-sudo apt-get install -yq default-jdk
-
-# compile the java
-javac EchoServer.java
