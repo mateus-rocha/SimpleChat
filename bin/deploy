@@ -1,2 +1,3 @@
 #!/bin/sh -x
-
+sudo apt-get install -yq default-jdk
+javac EchoServer.java
